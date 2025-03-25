@@ -91,8 +91,8 @@ TEST(FibonacciTest, EdgeCases) {
     EXPECT_EQ(fibonacci(-5), std::vector<int>());
 }
 ```
-```
 ## 2) Палиндром
+```
 #include <gtest/gtest.h>
 #include <string>
 
@@ -112,8 +112,8 @@ TEST(PalindromeTest, NegativeCases) {
     EXPECT_FALSE(is_palindrome(10));
 }
 ```
-```
 ## 3) Развернуть связный список используя итеративный подход.
+```
 #include <gtest/gtest.h>
 
 struct Node {
